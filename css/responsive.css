@@ -1,0 +1,106 @@
+@media (max-width:900px) {
+    html{
+        font-size: 55%;
+    }
+    .navbar label i{
+        display: initial;
+    }
+    .navbar .menu {
+        position: absolute;
+        top: 100%;
+        right: -120%;
+        background:rgb(59, 58, 58);
+        opacity: 0.8;
+        height: 35vh;
+        width: 100%;
+        text-align: center; 
+        transition: 0.5s;
+    }
+    .navbar .menu li{
+      display: block;
+      padding: 1rem 0rem;
+    }
+    .navbar .menu li a{
+        color:#222534;
+        font-size: 1.9rem;
+        color: whitesmoke;
+    }
+    .navbar .menu li a:hover{
+        padding-left: 3rem;
+    }
+    #click:checked ~ ul{
+        right: 0;
+    }
+    .page{
+        width: 100%;
+    }
+    .services_container .services_box{
+        width: 47%;
+       margin: .9rem;
+    }
+    .worker{
+        width: 100%;
+    }
+    .worker_box .worker_details{
+        flex-basis: 47%;
+        margin-top: 1rem;
+        padding: 1rem;
+        
+    }
+    
+
+}
+@media (max-width:777px){
+    .home .title h1{
+        font-size: 4.2rem;
+    }
+    .worker_box .worker_details{
+        flex-basis: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+    .about_container .about{
+        width: 100%;
+        text-align: center;
+        padding-right:0;
+    }
+    .about_container .img {
+        width: 100%;
+        border-radius: .4rem;
+        padding: 4rem 0;
+    }
+    .services_container .services_box{
+        width: 100%;
+    }
+    .question_part{
+        width: 100%;
+        flex-direction: column;
+    }
+    .question_part .text{
+        width: 100%;
+        padding: .5rem;
+        text-align: center;
+    }
+    .question_part .form{
+        width: 100%;
+        padding: 1rem;
+       
+    }
+    .question_part .text h2{
+        font-size: 4rem;
+    }
+    .question_part .form .mass{
+        width: 86%;
+    }
+    .footer .wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer .wrapper .footer_box{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        margin: 2rem 0rem;
+    }
+
+}
